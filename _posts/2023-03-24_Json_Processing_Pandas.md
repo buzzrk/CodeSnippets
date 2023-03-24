@@ -9,6 +9,7 @@ from pandas.io.json import json_normalize
 with open('data.json', 'w') as f:
     json.dump(data, f)
 d1 = pd.json_normalize(data,errors='ignore')
+df = pd.json_normalize(data["schools"],errors='ignore')
 ```
 
 ### Split repeated data in column to new rows
