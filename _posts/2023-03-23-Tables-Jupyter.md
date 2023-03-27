@@ -13,3 +13,11 @@ def display_table(data):
     display(HTML(html))```
 ```
 
+```
+t = []
+t.append(["Table heading"])
+t.append(["Column1","Column2"])
+t.append(["Data11","Data21"])
+t.append(["Data12","Data22"])
+```
+
