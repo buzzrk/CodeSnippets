@@ -1,4 +1,4 @@
-## How to show data as tables in jupyter notebook
+## Template for dataframe manipulation
 
 ```
 result = (mydf
